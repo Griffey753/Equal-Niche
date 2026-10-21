@@ -1,0 +1,23 @@
+{
+  "protocol_id": "EQUAL_NICHE_UNIFIED_MATLAB_18_V1_20260927",
+  "runtime": "MATLAB R2026a / PlatEMO v4.9",
+  "algorithms": ["EQUAL_NICHE", "HREA", "DN_NSGAII", "MMOEA_DC", "MMOEA_BH"],
+  "problems": [
+    "MMF1", "MMF1_e", "MMF4", "MMF5", "MMF7", "MMF8",
+    "MMF11", "MMF14", "MMF14_a", "MMF15", "MMF15_a_l",
+    "MMF16_l1", "MMF16_l2", "MMF16_l3",
+    "IDMPM2T1_e", "IDMPM2T2_e", "IDMPM2T3_e", "IDMPM2T4_e"
+  ],
+  "seeds": 30,
+  "population_size": "100D",
+  "archive_capacity": "100D",
+  "maximum_function_evaluations": "5000D",
+  "common_initialization": "results/external_comparison/common_initialization/{problem}_seed{seed:02d}.mat",
+  "evaluation_boundary": "Only an offspring prefix within the remaining 5000D budget may be evaluated",
+  "standard_set": "final population of exactly 100D; no archive substitution, deduplication or refill",
+  "native_set": "the algorithm's original archive/final set, sensitivity only",
+  "metrics": ["IGDX", "IGDF", "PSP"],
+  "metric_implementation": "src/equal_niche/performance_metrics.py for all five MATLAB outputs",
+  "algorithm_seed": "SHA256(MMO-COMPARE-RUN|algorithm|problem|seed)[:8] little-endian modulo 2^32",
+  "note": "A fresh, separately versioned unified run; historical mixed-runtime outputs are not imported into this directory."
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_id": "EQUAL_NICHE_CONTROLLED_MATLAB_18_V1_20260930",
+  "runtime": "MATLAB R2026a / PlatEMO v4.9",
+  "treatment": "EQUAL_NICHE",
+  "control": "INDIVIDUAL_UNIFORM",
+  "only_difference": "Parent 1 sampling: 1/(K*niche_size) versus 1/N",
+  "treatment_artifacts": "results/unified_matlab/formal/raw/EQUAL_NICHE",
+  "problems_config": "configs/unified_matlab_18_protocol.json",
+  "paired_seeds": 30,
+  "common_initialization": "results/external_comparison/common_initialization/{problem}_seed{seed:02d}.mat",
+  "algorithm_seed": "SHA256(MMO-COMPARE-RUN|EQUAL_NICHE|problem|seed)[:8] little-endian modulo 2^32 for both arms",
+  "population_size": "100D",
+  "maximum_function_evaluations": "5000D",
+  "output_set": "final population of exactly 100D",
+  "metrics": ["IGDX", "IGDF", "PSP"],
+  "metric_implementation": "src/equal_niche/performance_metrics.py, identical to unified MATLAB comparison"
+}

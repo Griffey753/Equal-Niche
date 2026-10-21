@@ -1,0 +1,19 @@
+{
+  "protocol_id": "EQUAL_NICHE_AUXILIARY_MATLAB_V1_20261021",
+  "paired_seeds": 30,
+  "population_size": "100D",
+  "maximum_function_evaluations": "5000D",
+  "sampler_audit_problems": "same 18 problems as the MATLAB comparison",
+  "sensitivity_problems": ["MMF1_e", "MMF15_a_l", "MMF16_l1", "IDMPM2T1_e", "IDMPM2T4_e"],
+  "radius_values": [0.25, 0.3333333333333333, 0.40],
+  "interpolation_strengths": [0, 0.25, 0.50, 0.75, 1],
+  "interpolation_law": "p_j(lambda)=(1-lambda)/N+lambda/(K*niche_size_j)",
+  "center_orders": ["rank_lexicographic", "rank_stratified_farthest_first"],
+  "random_stream": "MATLAB twister; same algorithm seed within each problem/seed across conditions",
+  "radius_scope": "temporary niches, local ranking, and archive selection share the radius",
+  "reuse": "radius 1/3 lambda 0 and 1 endpoints from completed MATLAB comparison and ablation",
+  "sampling_audit": "rerun 18x30 equal-niche treatments with observation-only traces; require exact final full-state equivalence to archived MATLAB treatment",
+  "calibration_envelope": "same mean absolute relative niche-count error and 2000 multinomial simulations per (draw count,niche count) as the prior audit; separate analysis RNG",
+  "holm_family": "three metrics within each problem and contrast; two-sided paired Wilcoxon signed-rank",
+  "exclusions": "none; all 30 seeds and all five fixed sensitivity problems are required"
+}

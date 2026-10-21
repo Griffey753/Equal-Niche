@@ -1,0 +1,182 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 47,
+    "sha256": "d264e5484bbfa485f5255d5c7c1383f8f063c93d380f85ccfd05b37522e5a9d6"
+  },
+  {
+    "path": "data/ablation/controlled_problem_effects.csv",
+    "bytes": 8702,
+    "sha256": "126b5ee46a7a77f87560b9f8ed91563f11462d03b381926f2a2969fcc15c85eb"
+  },
+  {
+    "path": "data/ablation/controlled_problem_summary.csv",
+    "bytes": 7653,
+    "sha256": "39c66391003dd51a013ab8ab0e461838c2bfacaf18b2c0d6a9c533f6e9002a63"
+  },
+  {
+    "path": "data/ablation/controlled_run_metrics.csv",
+    "bytes": 403006,
+    "sha256": "3f98aa186fd6bc9adfb62708556c02705cdb783a5c38e587408f895ed4a94191"
+  },
+  {
+    "path": "data/ablation/controlled_win_tie_loss.csv",
+    "bytes": 70,
+    "sha256": "2c19efc8867b81c10ad9fe9638927fb9018bfdb8d1199825997395d103113895"
+  },
+  {
+    "path": "data/auxiliary/center_order_sensitivity_effects.csv",
+    "bytes": 3748,
+    "sha256": "3322aabbbaed8c112b8142713c7faff7ba80679480138fe25ffce82c18981b0f"
+  },
+  {
+    "path": "data/auxiliary/dose_response_paired_effects.csv",
+    "bytes": 88190,
+    "sha256": "eba8aaf58034d1e768adf624fa75ec99cbeb3252be4a051549b26a38f8e9dc72"
+  },
+  {
+    "path": "data/auxiliary/dose_response_trends.csv",
+    "bytes": 1114,
+    "sha256": "1176415499a60088cff077b724caf54113fc1089f9fb70bf36b3f88a8990657b"
+  },
+  {
+    "path": "data/auxiliary/dose_response_values.csv",
+    "bytes": 10916,
+    "sha256": "9302de9711d53a5086a220858d93d4cac52e11b59a2c15d7d124e8ea1701bc76"
+  },
+  {
+    "path": "data/auxiliary/dose_sensitivity_effects.csv",
+    "bytes": 13447,
+    "sha256": "d18ee61609950346700ed3be3db20774318360ac23a92d572e122bb607528dbc"
+  },
+  {
+    "path": "data/auxiliary/equal_niche_multinomial_calibration.csv",
+    "bytes": 3637507,
+    "sha256": "3baf68c1b75ac91e86783858f2fd83da8be2056586309f969f952fbe97184940"
+  },
+  {
+    "path": "data/auxiliary/radius_sensitivity_effects.csv",
+    "bytes": 9963,
+    "sha256": "4ce96dc603225a7574c64c67e70490f309f0839cdeb2b543287a148285b8d37b"
+  },
+  {
+    "path": "data/auxiliary/robustness_problem_summary.csv",
+    "bytes": 10411,
+    "sha256": "561878839275877b87d5fc64ed185a5a7911d52b5f8d9b694363420192c0e8e1"
+  },
+  {
+    "path": "data/auxiliary/robustness_run_metrics.csv",
+    "bytes": 543902,
+    "sha256": "8a577b07a501aa04d41c10aff6707969c1c4ccd224a840773ee9d8ddd501aebc"
+  },
+  {
+    "path": "data/auxiliary/sampling_run_metrics.csv",
+    "bytes": 195510,
+    "sha256": "4b4a330ff125e670f22b13ee06ae66a23804940c38621a8088c06b7e13e94167"
+  },
+  {
+    "path": "data/comparison/comparison_average_rank.csv",
+    "bytes": 1223,
+    "sha256": "7322341ce55a0d29a3e2bd3ee88cede0427e48c845dfe7922bb4172dcfdad89e"
+  },
+  {
+    "path": "data/comparison/comparison_friedman.csv",
+    "bytes": 357,
+    "sha256": "4b2c7a6e040bac1a166ff116bcc049e9dbc8f63122564acf6db59af5aa941ba8"
+  },
+  {
+    "path": "data/comparison/comparison_normalized_igdx_paired.csv",
+    "bytes": 9078,
+    "sha256": "6bb1926e499b4bfe5d6da92a8a95d1fbc9ae003971b15812f37f8b3f1c547fc1"
+  },
+  {
+    "path": "data/comparison/comparison_normalized_igdx_ranks.csv",
+    "bytes": 152,
+    "sha256": "8daec7ba6331c039f83b97af6e651944b21cdbf367adad571fca666b7ef5eb3c"
+  },
+  {
+    "path": "data/comparison/comparison_normalized_igdx_wtl.csv",
+    "bytes": 83,
+    "sha256": "eda0dad2ab874f9ef77abe18ba2b88062cf6e7ee28da1404ea17a31bc5122419"
+  },
+  {
+    "path": "data/comparison/comparison_paired_wilcoxon_holm.csv",
+    "bytes": 50077,
+    "sha256": "d80409cfb2611d8246b61e454ca6be5dc747641f5c66951a75e78a13529abee0"
+  },
+  {
+    "path": "data/comparison/comparison_problem_summary.csv",
+    "bytes": 37330,
+    "sha256": "31e081321892c870efa8936ec2085108c1f5e18a6e1c56b4ea309a0428f7a6da"
+  },
+  {
+    "path": "data/comparison/comparison_run_results.csv",
+    "bytes": 1282927,
+    "sha256": "4020f2ece628e24c5ef676a795bac76410bb5bc9a6042f8ffa784334574b1371"
+  },
+  {
+    "path": "data/comparison/comparison_win_tie_loss.csv",
+    "bytes": 725,
+    "sha256": "d5302298fd6fda429407409c946b8416676e63df207188ff63feba0b8ac4080b"
+  },
+  {
+    "path": "matlab/+equalniche/fullNNSL.m",
+    "bytes": 1997,
+    "sha256": "63bc3c6f945819077cd44cf87ade1fa122bf7d3bf9bfbd97a081c1ecece574d6"
+  },
+  {
+    "path": "matlab/+equalniche/normalizedDistance.m",
+    "bytes": 439,
+    "sha256": "2a68b831e2d1d6706dbfecffd73f09b378368a211c5a35d5d1f21e9de70ee0d1"
+  },
+  {
+    "path": "matlab/+equalniche/reproduce.m",
+    "bytes": 3130,
+    "sha256": "71458b87879f990bc030b4328495b1964af29dd4fdc9d75c7748900a29b56fe0"
+  },
+  {
+    "path": "matlab/+equalniche/selectByFronts.m",
+    "bytes": 2712,
+    "sha256": "62592c288b5715870ee7a16d4d20ed41625b72eaa0e2fae6450b16c0d0d8d9c4"
+  },
+  {
+    "path": "matlab/+equalniche/temporaryNiches.m",
+    "bytes": 1920,
+    "sha256": "bcb3a8e97c99f93ba04c286f019727ad6bc5fe32e1877ae11949f90ecdb50592"
+  },
+  {
+    "path": "matlab/EqualNicheAdapter.m",
+    "bytes": 4232,
+    "sha256": "dec56b18c48a52e204fdc6bba9bc9470c035978569c1a8c57bb1e1bca1c65ff9"
+  },
+  {
+    "path": "matlab/run_equal_niche_example.m",
+    "bytes": 1009,
+    "sha256": "8acb90bd3435e6045d214064d030b95b691a218f847f89c0b9f1d6831f0a7465"
+  },
+  {
+    "path": "protocols/auxiliary_matlab_protocol.json",
+    "bytes": 1408,
+    "sha256": "f3505aec6d078c67aaeed8e3ed442b8646cc6fabdbe74dc508f2cba657070a61"
+  },
+  {
+    "path": "protocols/controlled_matlab_18_protocol.json",
+    "bytes": 905,
+    "sha256": "9d1eb739b70c686282d1ae57cf55e5048dff704206457a507d0157c146cd9c9f"
+  },
+  {
+    "path": "protocols/unified_matlab_18_protocol.json",
+    "bytes": 1293,
+    "sha256": "092c44fd48425d90207b96fef74f63bcdb2b9e3b9f00450e2ae38d21776edec8"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5319,
+    "sha256": "8b5c718cd871c30a7c3cb99d42167eeecc89768aeaba4746984728df33fee9f4"
+  },
+  {
+    "path": "tests/test_equal_niche_release.m",
+    "bytes": 1336,
+    "sha256": "de80b1bbd8a7cf4a1a2558b7c8d127b959830bcabbcf1069e86af059d3d72186"
+  }
+]
